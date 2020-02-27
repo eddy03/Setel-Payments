@@ -1,0 +1,39 @@
+{
+  "name": "setel-payments",
+  "version": "1.0.0",
+  "description": "Setel Practical Assignment -  Payment source code",
+  "main": "index.js",
+  "scripts": {
+    "init": "node init.js",
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "standard": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddy03/Setel-Payments.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eddy03/Setel-Payments/issues"
+  },
+  "homepage": "https://github.com/eddy03/Setel-Payments#readme",
+  "devDependencies": {
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2",
+    "standard": "^14.3.1"
+  },
+  "dependencies": {
+    "async": "^3.2.0",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.5"
+  }
+}
