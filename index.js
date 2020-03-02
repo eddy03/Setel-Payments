@@ -27,7 +27,7 @@ const DB = require('./db');
 
   app.DB = db
 
-  app.DB.sequelize.sync()
+  app.DB.sequelize.sync({ force: false })
 
   application(app)
 
